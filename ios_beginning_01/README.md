@@ -1,5 +1,7 @@
 # step 1. hello, iOS
 
+https://youtu.be/g3QnGNU_L_o
+
 - create new project
 - run on iOS simulator
 - interface builder tutorial
