@@ -1,0 +1,15 @@
+PODS:
+  - GaugeKit (0.3.2)
+  - JHChainableAnimations (1.3.0)
+
+DEPENDENCIES:
+  - GaugeKit
+  - JHChainableAnimations (~> 1.3)
+
+SPEC CHECKSUMS:
+  GaugeKit: 4d5c3491521ed2d6e2f83cac5f51d0cd09db8989
+  JHChainableAnimations: 22085fcb04ca87349e584573558e637f659fd769
+
+PODFILE CHECKSUM: 2381b4932b17f3de659107fab8f5c791f58c9008
+
+COCOAPODS: 1.0.1

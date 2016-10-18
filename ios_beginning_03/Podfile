@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ios_beginning_03' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ios_beginning_03
+  pod 'JHChainableAnimations', '~> 1.3'
+  pod "GaugeKit"
+
+end
