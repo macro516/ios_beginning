@@ -7,3 +7,6 @@ step 1. hello, iOS
 
 step 2. AutoLayout
 (https://github.com/macro516/ios_beginning/tree/master/ios_beginning_02)
+
+step 3. Animation with frameworks
+(https://github.com/macro516/ios_beginning/tree/master/ios_beginning_03)
