@@ -28,8 +28,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func cookieWasClicked(_ sender: AnyObject) {
-        
-        
 //        UIView.animate(withDuration: 1.0, animations: {
 //            cookie.frame.origin.y = self.view.frame.height - 30
 //            }, completion: {
@@ -61,8 +59,8 @@ class ViewController: UIViewController {
         
         for _ in 0..<Int(gauge.rate) {
             let cookie = makeCookie()
-            
-            cookie.makeY()(self.view.frame.height - 30)?.spring().thenAfter()(1.0)?.makeOpacity()(0.0)?.animate()(1.0)?.animationCompletion = {
+            let delay = Double(arc4random_uniform(100)) / 100.0
+            cookie.wait()(delay)?.makeY()(self.view.frame.height - 30)?.spring().thenAfter()(1.0)?.makeOpacity()(0.0)?.animate()(1.0)?.animationCompletion = {
                 cookie.removeFromSuperview()
             }
         }
